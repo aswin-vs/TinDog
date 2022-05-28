@@ -1,0 +1,169 @@
+body{
+    font-family: "Montserrat";
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: white;
+    height:44rem;
+    overflow:hidden;
+}
+
+.container-fluid{
+    padding:3% 15%;
+}
+
+/* Navigation Bar */
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0px 14px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    color:rgba(255,255,255,0.8);
+}
+
+h1{
+    line-height: 1.5;
+    padding-bottom: 3rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+h3{
+    font-family: "Montserrat";
+    font-size: 2rem;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+.Download-btn{
+    margin:0 2rem 2rem 0;
+}
+
+.title-img{
+    width:75%;
+    transform: rotate(25deg);
+}
+
+#features{
+    padding:7% 15%;
+}
+
+.f-box{
+    text-align: center;
+    padding:5%;
+}
+
+.icon{
+    color:#ef8172;
+    padding-bottom: 1rem;
+}
+
+.icon:hover{
+    color:#ff4c68;
+}
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color:white;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.test-text{
+    font-family: "Montserrat";
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.test-img{
+    width: 8rem;
+    border-radius: 100%;
+}
+
+#press{
+    display: block inline;
+    text-align: center;
+    background-color: #ef8172;
+    padding: 3rem 0 1rem;
+}
+
+.press-logo{
+    width:15%;
+    margin:20px 20px 50px;
+}
+
+#pricing{
+    padding: 80px;
+    text-align: center ;
+}
+
+.price-col{
+    padding: 3% 2%;
+}
+
+#cta{
+    padding:5% 15%;
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+.cta-text{
+    padding-bottom: 3rem;
+    font-size: 3rem;
+    color: white;
+}
+
+#footer{
+    padding: 3% 15%;
+    text-align: center;
+}
+
+.foot-icon{
+    margin: 20px 10px;
+}
+
+.foot-text{
+    color: #6d6a6a;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+@media (max-width: 1028px){
+    .title-img{
+        position: static;
+        transform: rotate(0deg);
+    }
+
+    #title{
+        overflow:auto;
+        height: auto;
+        text-align:center;
+    }
+}
